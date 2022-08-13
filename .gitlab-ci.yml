@@ -1,0 +1,14 @@
+image: "ubuntu:jammy"
+
+stages:
+  - chrome_extension
+
+chrome_extension_build:
+  stage: chrome_extension
+  script:
+     - apt-get update
+     - apt-get install -y zip
+     - zip -r abbrv-ext.zip ext/
+  artifacts:
+    paths:
+      - abbrv-ext.zip
