@@ -1,0 +1,17 @@
+{
+  "name": "abbrv-ext",
+  "description": "Chrome extension for abbrv",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://go/*"
+  ],
+  "background": {
+    "scripts": [
+      "config.js",
+      "background.js"
+    ]
+  }
+}
