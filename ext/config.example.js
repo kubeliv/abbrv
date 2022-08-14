@@ -1,1 +1,0 @@
-let baseUrl = "https://go.example.com/"
