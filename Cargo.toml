@@ -11,3 +11,7 @@ serde_json = "1.0.83"
 [[bin]]
 name = "abbrv"
 path = "src/main.rs"
+
+[[bin]]
+name = "abbrv_forward"
+path = "src/forward.rs"
